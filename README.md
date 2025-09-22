@@ -60,7 +60,8 @@ Sul nodo H6 è stato sviluppato l’**Experiment Controller**, un server HTTP ba
 ## Test di raggiungibilità host
 
 Prima di continuare con lo sviluppo del server_flask.py si è verificato che tutti gli host potessero comunicare correttamente, tramite l’utilizzo del comando pingall, che verifica l’invio e la ricezione di pacchetti verso tutti i nodi della rete:
-![]()
+![Screenshot 2025-09-07 105219.png
+](./Screenshot 2025-09-07 105219.png)
 
 ## Analisi e validazione delle specifiche richieste
 
@@ -74,7 +75,6 @@ Prima di continuare con lo sviluppo del server_flask.py si è verificato che tut
 | **6. Salvataggio log in formato standard (json/)** | In **server_flask.py**, la funzione `save_result()` salva i risultati di throughput in un file JSON (`experiment_results.json`).<br><br>Sono gestite corse multiple concorrenti con adeguata sincronizzazione tramite locking.<br><br>I dati includono: host, protocollo, bitrate, throughput, start/end time, durata. |
 | **7. Test con massimo rate per saturazione banda** | Supportato dall’API `/start_experiment`: l’utente può configurare gli host con data-rate pari alla capacità del link, saturando la rete e osservando eventuali degradi delle prestazioni. |
 | **8. Analisi grafica del throughput** | Dai dati salvati in JSON si possono generare grafici temporali di throughput per host, mostrando l’effetto dell’attivazione sequenziale dei flussi. |
-|
 
 ## Istruzioni d’uso
 
