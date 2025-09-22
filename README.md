@@ -60,8 +60,8 @@ Sul nodo H6 è stato sviluppato l’**Experiment Controller**, un server HTTP ba
 ## Test di raggiungibilità host
 
 Prima di continuare con lo sviluppo del server_flask.py si è verificato che tutti gli host potessero comunicare correttamente, tramite l’utilizzo del comando pingall, che verifica l’invio e la ricezione di pacchetti verso tutti i nodi della rete:
-![Screenshot 2025-09-07 105219.png
-](Screenshot 2025-09-07 105219.png)
+
+![](https://github.com/giacomobencivinni/Mininet-Ryu-Experiment-Controller/blob/main/Screenshot%202025-09-07%20105219.png?raw=true)
 
 ## Analisi e validazione delle specifiche richieste
 
